@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ana Fiki Hidayatul Maula — Portofolio</title>
+  <meta name="description" content="Portofolio Ana Fiki Hidayatul Maula — Mahasiswi Sistem Informasi (Angkatan 2023) UNIKMA" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Favicon (simple svg data) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23000'/%3E%3Ctext x='50' y='58' font-size='48' text-anchor='middle' fill='%2300ff99' font-family='Inter,Arial'%3EA%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <div class="page">
+    <!-- NAV -->
+    <header class="nav" id="navbar">
+      <div class="nav-inner">
+        <a class="brand" href="#home" aria-label="Beranda Ana Fiki">Ana Fiki</a>
+
+        <nav class="nav-links" id="nav-links" aria-label="Main navigation">
+          <a href="#home" class="nav-link">Beranda</a>
+          <a href="#about" class="nav-link">Tentang</a>
+          <a href="#skills" class="nav-link">Keterampilan</a>
+          <a href="#projects" class="nav-link">Proyek</a>
+          <a href="#experience" class="nav-link">Pendidikan</a>
+          <a href="#contact" class="nav-link">Kontak</a>
+        </nav>
+
+        <button id="hamburger" class="hamburger" aria-expanded="false" aria-label="Buka menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO / INTRO -->
+      <section class="hero" id="home" aria-label="Beranda">
+        <div class="hero-inner container reveal">
+          <div class="hero-left">
+            <h1 class="title">
+              Halo, saya
+              <span class="name-glow">Ana Fiki</span>
+            </h1>
+
+            <p class="typed" id="typed" data-text='["Mahasiswi Sistem Informasi — UNIKMA (Angkatan 2023).","Berfokus pada pengembangan sistem informasi, analisis data, dan UX yang fungsional.","Menciptakan solusi digital yang berdampak untuk bisnis & komunitas."]'></p>
+
+            <div class="hero-cta">
+              <a class="btn primary" href="#projects">Lihat Proyek</a>
+              <a class="btn ghost" href="#contact">Kontak</a>
+            </div>
+
+            <ul class="quick-info">
+              <li><strong>Program:</strong> Sistem Informasi</li>
+              <li><strong>Universitas:</strong> UNIKMA (Universitas Komputama)</li>
+              <li><strong>Angkatan:</strong> 2023</li>
+            </ul>
+          </div>
+
+          <div class="hero-right" aria-hidden="true">
+            <!-- Futuristic neon card -->
+            <div class="neon-card">
+              <svg class="avatar" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Avatar Ana">
+                <defs>
+                  <linearGradient id="g" x1="0" x2="1">
+                    <stop offset="0" stop-color="#00ff99"/>
+                    <stop offset="1" stop-color="#00bfff"/>
+                  </linearGradient>
+                </defs>
+                <rect width="120" height="120" rx="18" fill="#060606"/>
+                <g transform="translate(10,10)">
+                  <circle cx="50" cy="38" r="22" fill="url(#g)" opacity="0.12"/>
+                  <circle cx="50" cy="38" r="22" fill="#0b0b0b"/>
+                  <text x="50" y="85" font-family="Inter, Arial" font-size="11" fill="#00ff99" text-anchor="middle">Ana Fiki</text>
+                </g>
+              </svg>
+
+              <div class="neon-meta">
+                <h3>Ana Fiki Hidayatul Maula</h3>
+                <p>Mahasiswi Sistem Informasi — UNIKMA</p>
+                <div class="badges">
+                  <span class="badge">Analisis Data</span>
+                  <span class="badge">UI/UX</span>
+                  <span class="badge">Sistem Informasi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section about container reveal" aria-label="Tentang Saya">
+        <h2 class="section-title">Tentang Saya</h2>
+        <div class="about-grid">
+          <div class="about-card">
+            <p>
+              Saya adalah mahasiswa Sistem Informasi (Angkatan 2023) di UNIKMA. Saya tertarik pada
+              pengembangan aplikasi yang menggabungkan analisis kebutuhan bisnis, pengalaman pengguna, dan pemrosesan data.
+              Saya aktif dalam proyek kampus dan berorientasi pada solusi yang dapat diterapkan.
+            </p>
+
+            <ul class="about-list">
+              <li><strong>Minat:</strong> Sistem Informasi, Database, Analisis & Visualisasi Data</li>
+              <li><strong>Tools:</strong> SQL, Excel, Figma, Node.js (dasar), Git</li>
+              <li><strong>Bahasa:</strong> Indonesia & Inggris (aktif)</li>
+            </ul>
+
+            <div class="socials">
+              <a href="#" aria-label="LinkedIn (contoh)">LinkedIn</a>
+              <a href="#" aria-label="GitHub (contoh)">GitHub</a>
+              <a href="#" aria-label="Email">Email</a>
+            </div>
+          </div>
+
+          <div class="skills-summary">
+            <h3>Highlight Keterampilan</h3>
+            <div class="skill-bar">
+              <label>Analisis Sistem</label>
+              <div class="bar"><span style="--w:85%"></span></div>
+            </div>
+            <div class="skill-bar">
+              <label>Database (SQL)</label>
+              <div class="bar"><span style="--w:78%"></span></div>
+            </div>
+            <div class="skill-bar">
+              <label>UX & Prototyping</label>
+              <div class="bar"><span style="--w:72%"></span></div>
+            </div>
+            <div class="skill-bar">
+              <label>Presentasi & Dokumentasi</label>
+              <div class="bar"><span style="--w:90%"></span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section container reveal" aria-label="Keterampilan">
+        <h2 class="section-title">Keterampilan</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h4>Analisis Sistem</h4>
+            <p>Mengumpulkan kebutuhan, memodelkan proses, dan mendesain solusi yang efisien.</p>
+          </div>
+          <div class="skill-card">
+            <h4>Database & SQL</h4>
+            <p>Desain schema, query kompleks, dan optimasi dasar performa database.</p>
+          </div>
+          <div class="skill-card">
+            <h4>UI/UX & Prototyping</h4>
+            <p>Wireframing, prototyping di Figma, dan pengujian dasar pengalaman pengguna.</p>
+          </div>
+          <div class="skill-card">
+            <h4>Visualisasi Data</h4>
+            <p>Membuat visualisasi untuk membantu pengambilan keputusan menggunakan chart interaktif.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section container reveal" aria-label="Proyek">
+        <h2 class="section-title">Proyek</h2>
+
+        <div class="projects-controls">
+          <div class="filter">
+            <button class="filter-btn active" data-filter="*">Semua</button>
+            <button class="filter-btn" data-filter="academic">Akademik</button>
+            <button class="filter-btn" data-filter="personal">Pribadi</button>
+            <button class="filter-btn" data-filter="collab">Kolaborasi</button>
+          </div>
+
+          <div class="search">
+            <input id="project-search" type="search" placeholder="Cari proyek..." aria-label="Cari proyek" />
+          </div>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+          <!-- Project Card 1 -->
+          <article class="project-card" data-type="academic" data-title="Sistem Arsip Kampus" tabindex="0">
+            <div class="project-media">
+              <div class="project-thumb"></div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Sistem Arsip Kampus</h3>
+              <p class="project-desc">Sistem informasi untuk pengelolaan arsip administrasi kampus. Implementasi analisa kebutuhan & model database.</p>
+              <div class="project-meta">
+                <span class="tag">Academic</span>
+                <button class="btn ghost view-btn">Lihat</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 2 -->
+          <article class="project-card" data-type="personal" data-title="Dashboard Visualisasi Data">
+            <div class="project-media">
+              <div class="project-thumb"></div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Dashboard Visualisasi Data</h3>
+              <p class="project-desc">Dashboard interaktif untuk menampilkan indikator kinerja organisasi kampus menggunakan chart & filter.</p>
+              <div class="project-meta">
+                <span class="tag">Personal</span>
+                <button class="btn ghost view-btn">Lihat</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 3 -->
+          <article class="project-card" data-type="collab" data-title="Aplikasi Pengelolaan Klub">
+            <div class="project-media">
+              <div class="project-thumb"></div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Aplikasi Pengelolaan Klub</h3>
+              <p class="project-desc">Kolaborasi tim untuk membuat aplikasi manajemen kegiatan dan anggota klub kampus.</p>
+              <div class="project-meta">
+                <span class="tag">Kolaborasi</span>
+                <button class="btn ghost view-btn">Lihat</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 4 (example) -->
+          <article class="project-card" data-type="personal" data-title="Sistem Penjadwalan">
+            <div class="project-media">
+              <div class="project-thumb"></div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Sistem Penjadwalan</h3>
+              <p class="project-desc">Prototype sistem penjadwalan mata kuliah dengan logika konflik waktu dan rekomendasi ruangan.</p>
+              <div class="project-meta">
+                <span class="tag">Personal</span>
+                <button class="btn ghost view-btn">Lihat</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE / EDUCATION -->
+      <section id="experience" class="section container reveal" aria-label="Pendidikan & Pengalaman">
+        <h2 class="section-title">Pendidikan & Pengalaman</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="time">2023 — Sekarang</div>
+            <div class="info">
+              <h4>Mahasiswa Sistem Informasi — UNIKMA</h4>
+              <p>Saat ini aktif mengikuti perkuliahan, praktikum, serta proyek akademik yang berhubungan dengan pengembangan sistem dan analisis data.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="time">2024</div>
+            <div class="info">
+              <h4>Asisten Penelitian (Proyek Kampus)</h4>
+              <p>Terlibat dalam pengumpulan dan analisis data untuk studi sistem informasi pada unit akademik.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="time">2023</div>
+            <div class="info">
+              <h4>Pelatihan Dasar Database</h4>
+              <p>Workshop dan pelatihan SQL dasar yang meningkatkan kemampuan query dan pengelolaan data.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section contact container reveal" aria-label="Kontak">
+        <h2 class="section-title">Kontak</h2>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Terhubung dengan saya</h3>
+            <p>Ingin berdiskusi proyek, kerja kolaborasi, atau konsultasi akademik? Kirim pesan singkat.</p>
+
+            <ul class="contact-list">
+              <li><strong>Email:</strong> <a href="mailto:ana.fiki@example.com">ana.fiki@example.com</a></li>
+              <li><strong>LinkedIn:</strong> <a href="#" target="_blank" rel="noopener">/ana-fiki</a></li>
+              <li><strong>GitHub:</strong> <a href="#" target="_blank" rel="noopener">/ana-fiki</a></li>
+            </ul>
+          </div>
+
+          <form id="contact-form" class="contact-form" aria-label="Form kontak">
+            <label>
+              <span>Nama</span>
+              <input type="text" name="name" required placeholder="Nama Anda" />
+            </label>
+
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required placeholder="you@example.com" />
+            </label>
+
+            <label>
+              <span>Pesan</span>
+              <textarea name="message" rows="5" required placeholder="Tulis pesan..." ></textarea>
+            </label>
+
+            <div class="form-actions">
+              <button type="submit" class="btn primary">Kirim Pesan</button>
+              <button type="reset" class="btn ghost">Bersihkan</button>
+            </div>
+
+            <p class="form-note">Form ini berbentuk demo — untuk mengaktifkan kirim, hubungkan backend atau arahkan ke email menggunakan layanan pihak ketiga.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Ana Fiki Hidayatul Maula — Mahasiswi Sistem Informasi, UNIKMA</p>
+        <p class="small">Desain: Dark Mode Futuristik • Animasi halus • Responsif</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Project Modal -->
+  <div id="project-modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-panel">
+      <button class="modal-close" aria-label="Tutup">&times;</button>
+      <div class="modal-content">
+        <h3 id="modal-title">Judul Proyek</h3>
+        <p id="modal-desc">Deskripsi proyek lengkap akan tampil di sini.</p>
+        <div id="modal-extra"></div>
+        <div class="modal-actions">
+          <a id="modal-link" class="btn primary" href="#" target="_blank" rel="noopener">Lihat Live / Repo</a>
+          <button class="btn ghost modal-close">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
